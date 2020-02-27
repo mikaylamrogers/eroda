@@ -1,0 +1,53 @@
+/* all text will be this font & have border-box */
+* {
+  font-family: 'Stint Ultra Condensed';
+  box-sizing: border-box;
+}
+
+/* set background image & settings for entire body */
+body {
+  background-image: url('https://media.giphy.com/media/KDQHrUvkcKOfIIqhUQ/giphy.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* spacial settings for flexParent, p, h1, & img */
+.flexParent, p, h1, img {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* settings for div in .flexParent */
+.flexParent div {
+  display: flex;
+  margin: 100px;
+  padding: 100px;
+  font-size: 100px;
+  color: yellow;
+  line-height: 0.5;
+  text-align: center;
+}
+
+/* settings for div text */
+div {
+  font-size: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+/* settings for link text */
+a, a:visited, a:active {
+  text-align: left;
+  text-decoration: none;
+  color: yellow;
+}
+
+/* remove underline & change color when hovering over link */
+a:hover {
+  text-decoration: underline;
+  color: #3dbdd4;
+}
