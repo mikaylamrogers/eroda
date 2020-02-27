@@ -9,6 +9,7 @@ body {
   background-image: url('https://media.giphy.com/media/KDQHrUvkcKOfIIqhUQ/giphy.gif');
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: pink;
 }
 
 /* spacial settings for flexParent, p, h1, & img */
